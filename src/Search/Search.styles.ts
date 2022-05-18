@@ -21,12 +21,13 @@ export const Wrapper = styled.div`
     color: gray;
   }
   input {
-    border-radius: 10px 0 0 10px;
+    border-radius: 30px 0 0 30px;
   }
   .button {
     background: gray;
     color: white;
-    border-radius: 0 10px 10px 0;
+    padding: 20px 30px 0 30px;
+    border-radius: 0 30px 30px 0;
   }
   
   /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */

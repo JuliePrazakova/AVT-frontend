@@ -22,7 +22,7 @@ export const Wrapper = styled.div`
   }
   .title {
     width: fit-content;
-    margin: auto;
+    margin-left: 15%;
   }
   .lowerSection {
     margin: 40px;

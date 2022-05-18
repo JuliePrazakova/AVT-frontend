@@ -1,6 +1,6 @@
 import * as React from "react"
 import { HashRouter as Router, Link } from 'react-router-dom'
-import Logo from "./Logo.png";
+import Logo from "./logo.png";
 import { Wrapper } from './Header.styles';
 
 
