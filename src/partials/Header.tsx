@@ -10,12 +10,21 @@ const Header = () => {
                 <Router>
                     <div className="topNav">
                         <a className="active"  href="/">
-                            <img className="img" src={Logo} alt="Logo"/>
+                            <img className="img" src={Logo} alt="Logo" />
                         </a>
-                        <div className="header_right">
+                        <div className="header-right">
                             <div>
-                                <a href='#tours'>TOURS</a>
-                                <Link to={`/help`}>HELP</Link>
+                                <i className="map outline icon"></i>
+                                <div>
+                                    <a href='#tours'>TOURS</a>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i className="question large circle outline icon"></i>
+                                <div>
+                                    <Link to={`/help`}>HELP</Link>
+                                </div>
                             </div>
                         </div>
                     </div>

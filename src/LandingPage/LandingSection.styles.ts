@@ -11,21 +11,31 @@ export const Wrapper = styled.div`
   font-family: Open Sans,serif ;
   
   .background-cover {
-    background: url("/images/background2.png");
+    background: url("/images/background2.jpg");
     background-size: cover;
-    padding: 250px 0 200px 0;
+    padding: 350px 0 15% 0;
     margin: 0;
     color: white;
   }
-  h1 {
-    font-size: 50px;
+  .title > p {
+    font-size: 63px;
+    font-weight: 800;
   }
   .title {
     width: fit-content;
     margin-left: 15%;
   }
-  .lowerSection {
+  .lower-section {
     margin: 40px;
     justify-content: center;
+  }
+`;
+export const Grid = styled.div`
+    .container{
+      margin: auto;
+      width: 300px;
+      height: 600px;
+      border: 1px solid gray;
+      border-radius: 20px;
   }
 `;
