@@ -12,4 +12,6 @@ The first step of this project is for the class Application of Development Techn
    * Working search map.
    * Programmed in Typescript, data only in JSON file.
 
+ * #### See the actual design in the mocks file
+
     
