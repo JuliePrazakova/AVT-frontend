@@ -4,7 +4,7 @@ First part of website application for tour search around wanted location. Focusi
 
 ## CURRENT GOAL:
 
-The first step of this project is for the class ATV in LS2022:
+The first step of this project is for the class Application of Development Techniques in summer term 2022:
    
  * first step:
    * Landing page connected to partial page of each tour. 
