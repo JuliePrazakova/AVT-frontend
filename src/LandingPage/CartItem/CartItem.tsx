@@ -1,5 +1,5 @@
 // Types
-import { CartItemType } from '../LandingPage/LandingSection';
+import { CartItemType } from '../LandingSection';
 // Styles
 import { Wrapper } from './CartItem.styles';
 

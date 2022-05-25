@@ -1,12 +1,12 @@
 //components
-import Search from '../Search/Search';
-import QuestionBox from "./Question-box";
+import Search from './Search/Search';
+import QuestionBox from "./Question-part/Question-box";
 
 // Types
 // Styles
 import { Wrapper, Grid } from './LandingSection.styles';
 import * as React from "react";
-import Item from "../Item/Item";
+import Item from "./CartItem/Item/Item";
 import {useQuery} from "react-query";
 import Data from "../Data/products.json";
 import Map from "./map.png";

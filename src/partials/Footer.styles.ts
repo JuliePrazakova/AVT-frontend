@@ -2,23 +2,35 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  width: 100%;
-  border: 1px solid lightblue;
-  border-radius: 20px;
-  height: 100%;
+  background: #404040;
+  margin-bottom: 0;
 
   .footer {
-    font-family: "Open Sans", serif;
+    display: flex;
+    justify-content: space-around;
     position: relative;
-    left: 0;
-    bottom: 0;
-    height: 50px;
-    width: 100%;
-    margin: 0;
-    background-color: black;
+    font-family: "Open Sans", serif;
+    width: 40%;
+    margin: auto;
     color: white;
     text-align: center;
+  }
+  .footer > div {
+    display: flex;
+    padding: 23px 0 23px 0;
+  }
+  .vl {
+    border-left: 1px solid lightgray;
+    height: 35px;
+    margin: auto;
+  }
+  .information > div {
+    font-weight: 100;
+    margin: auto 20px auto 20px;
+    color: lightgray;
+  }
+  .contact {
+    margin: auto 20px auto 20px;
+    font-weight: 600;
   }
 `;

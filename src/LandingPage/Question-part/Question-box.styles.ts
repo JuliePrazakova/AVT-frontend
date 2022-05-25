@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   }
   width: 80%;
   background: url("/images/background2.jpg");
-  margin: auto;
+  margin: 50px auto 50px auto;
   font-family: Open Sans,serif ;
   padding-bottom: 20px;
   
