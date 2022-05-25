@@ -1,5 +1,7 @@
 //components
 import Search from '../Search/Search';
+import QuestionBox from "./Question-box";
+
 // Types
 // Styles
 import { Wrapper, Grid } from './LandingSection.styles';
@@ -53,6 +55,8 @@ const LandingSection = () => {
                         <img className="img" src={Map} alt="Map" />
                     </div>
                 </div>
+                <QuestionBox />
+
             </Wrapper>
         );
 }
