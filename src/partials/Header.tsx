@@ -19,7 +19,6 @@ const Header = () => {
                                     <a href='#tours'>TOURS</a>
                                 </div>
                             </div>
-
                             <div>
                                 <i className="question large circle outline icon"></i>
                                 <div>

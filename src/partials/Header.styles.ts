@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
     height: 55px;
   }
   .active {
-    margin-left: 30px;
+    margin-left: 5%;
     margin-top: 5px;
   }
   .active > img {
@@ -47,7 +47,7 @@ export const Wrapper = styled.div`
 
   .header-right{
     float:right;
-    margin: 15px 50px 0 0;
+    margin: 15px 5% 0 0;
     display: flex;
   }
   

@@ -6,23 +6,23 @@ export const Wrapper = styled.div`
     src: local(Open Sans), url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap') format('woff');
   }
   width: 80%;
-  background: url("/images/background2.jpg");
+  background: url("/images/background-question-box.jpg");
   margin: 50px auto 50px auto;
   font-family: Open Sans,serif ;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   
   .title {
     width: fit-content;
-    margin-left: 15%;
-    font-size: 30px;
+    margin-left: 10%;
+    font-size: 35px;
     font-weight: 800;
     color: white;
-    padding: 30px 0 30px 0;
+    padding: 70px 0 10px 0;
   }
   //whole box without title
   .form-box {
     display: flex;
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding-bottom: 20px;
   }
@@ -46,7 +46,7 @@ export const Wrapper = styled.div`
  
   //all iputs
   .input {
-    padding: 3px 0 0 10px;
+    padding: 1px 0 0 10px;
     font-size: 12px;
     font-weight: normal;
     border: none;
@@ -78,9 +78,9 @@ export const Wrapper = styled.div`
     font-weight: 200;
     color: white;
     padding: 6px 55px 6px 55px;
-    margin-right: 15%;
+    margin-right: 10%;
     border-radius: 30px;
-    border: none;
+    border: 1px solid lightgray;
   }
   .left-part {
     width: 50%;
