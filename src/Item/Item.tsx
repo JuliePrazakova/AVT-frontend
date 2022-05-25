@@ -9,11 +9,15 @@ type Props = {
 
 const Item: React.FC<Props> = ({ item }) => (
   <Wrapper>
-    <img src={item.image} alt={item.title} />
-    <div>
+      <div >
+          <img src={item.image} alt={item.title} />
+      </div>
+
+    <div className='text-box'>
       <h3>{item.title}</h3>
-      <p>{item.description}</p>
-      <h3>${item.price}</h3>
+      <p>{item.smallDes1}</p>
+      <p>{item.smallDes2}</p>
+      <h3>From ${item.price} per person</h3>
     </div>
   </Wrapper>
 );

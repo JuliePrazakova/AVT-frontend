@@ -6,11 +6,14 @@ import { Wrapper, Grid } from './LandingSection.styles';
 import * as React from "react";
 import Item from "../Item/Item";
 import {useQuery} from "react-query";
-import * as Data from "../Data/products.json";
+import Data from "../Data/products.json";
+import Map from "./map.png";
 
 export type CartItemType = {
     id: number;
     category: string;
+    smallDes1: string;
+    smallDes2: string;
     description: string;
     image: string;
     price: number;
@@ -37,14 +40,18 @@ const LandingSection = () => {
                     </div>
                     <Search />
                 </div>
+
                 <div className='lower-section'>
-                    <Grid>
+                    <Grid >
                         {data?.map(item => (
-                            <Grid  key={item.id} >
-                                <Item item={item} />
+                            <Grid key={item.id} >
+                                <Item item={item}  />
                             </Grid>
                         ))}
                     </Grid>
+                    <div className='map'>
+                        <img className="img" src={Map} alt="Map" />
+                    </div>
                 </div>
             </Wrapper>
         );

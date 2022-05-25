@@ -2,7 +2,9 @@
 "products": [
     {
       "id": 1,
-      "title": "Sieri Poro",
+      "title": "Sieri Poro Farm",
+      "smallDes1": "Long $ Short sledge",
+      "smallDes2": "Rovaniemi's best choice",
       "description": "Reindeer farm - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet libero quis elit sodales aliquet. In volutpat magna ut urna hendrerit, vel fermentum turpis aliquet.",
       "city": "Rovaniemi",
       "street": "Kurivaarantie",
@@ -18,6 +20,8 @@
     {
       "id": 2,
       "title": "SoulMate Huskies",
+      "smallDes1": "Reindeer farm",
+      "smallDes2": "Rovaniemi Kokyno",
       "description": "Husky farm - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet libero quis elit sodales aliquet. In volutpat magna ut urna hendrerit, vel fermentum turpis aliquet.",
       "city": "Pello",
       "street": "Rovaniementie",
@@ -33,6 +37,8 @@
     {
       "id": 3,
       "title": "Raitola Reindeer & Husky Farm",
+      "smallDes1": "Reindeer farm",
+      "smallDes2": "Rovaniemi Kokyno",
       "description": "Husky farm - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet libero quis elit sodales aliquet. In volutpat magna ut urna hendrerit, vel fermentum turpis aliquet.",
       "city": "Rovaniemi",
       "street": "Valttikankaantie",

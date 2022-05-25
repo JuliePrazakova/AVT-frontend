@@ -26,16 +26,31 @@ export const Wrapper = styled.div`
     margin-left: 15%;
   }
   .lower-section {
-    margin: 40px;
-    justify-content: center;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+  }
+  
+  //styles for leaflet map
+  #map {
+    height: 180px;
+  }
+  .map {
+    width: 50%;
+  }
+  .map > img{
+    width: 100%;
+  
+    position: -webkit-sticky;
+    position: sticky;
+    top:20px;
+    border-radius: 30px;
   }
 `;
 export const Grid = styled.div`
-    .container{
-      margin: auto;
-      width: 300px;
-      height: 600px;
-      border: 1px solid gray;
-      border-radius: 20px;
-  }
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
 `;
